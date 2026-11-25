@@ -1,0 +1,19 @@
+# Quartus build output (the .sof in output_files/ is kept)
+fpga/db/
+fpga/incremental_db/
+fpga/qdb/
+fpga/greybox_tmp/
+fpga/.qsys_edit/
+fpga/*.qws
+fpga/*.bak
+fpga/output_files/*
+!fpga/output_files/*.sof
+
+# Nios II BSP and firmware build output
+bsp/
+firmware/obj/
+firmware/mem_init/
+firmware/*.elf
+firmware/*.map
+firmware/*.objdump
+.metadata/
